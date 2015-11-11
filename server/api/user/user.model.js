@@ -10,7 +10,7 @@ var UserSchema = new Schema({
   },
   clan: {
     type: mongoose.Schema.Types.ObjectId, 
-    ref: "Clan"
+    ref: 'Clan'
   }
 });
 
